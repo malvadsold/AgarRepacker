@@ -10,7 +10,7 @@
 window.ip = ''
 
 const get = (e) => {
-    if(e.key == 'e'){
+    if(e.key == 'e' || e.key == 'E'){
         prompt('serverIP:', ip)
     }
 }
