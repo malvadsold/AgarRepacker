@@ -54,7 +54,7 @@ class AgarPlayer {
             isOffset: false
         }
         this.leaderboard = []
-        this.host = server.match(/wss:\/\/(live-arena.+):.+/)[1]
+        this.host = server.match(/wss:\/\/(live-arena.+.agar.io).+/)[1]
         this.MyName = ''
         this.connect()
     }
