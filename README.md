@@ -8,3 +8,5 @@ Agar tool that lets you with any old protocol 5 agar client (agarplus, hkg, v72)
 - Go to Config.json and replace ip with the server ip
 - In server port you can choose the port that you want or just dont touch it
 - Go to any old client and connect to ws://localhost:ConfigPort || ws://localhost:3321 by default
+
+#Please report any bug in issues :)
