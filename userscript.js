@@ -17,7 +17,7 @@ const get = (e) => {
 
 document.addEventListener('keypress', get)
 
-WebSocket.prototype.send_ = WebSocket.prototype.send;
+WebSocket.prototype.send_ = WebSocket.prototype.send
 WebSocket.prototype.send = function(){
     ip = this.url
     WebSocket.prototype.send_.apply(this,arguments)
