@@ -3,6 +3,7 @@ Agar tool that lets you play with any old protocol 5 agar client (agarplus, hkg,
 
 [Instructions]
 
+- Intsll dependencies by clicking installdependencies.bat
 - Install userscript.js with tampermonkey and go to agar.io
 - In Agar.io find a server and press "e" key on your keyboard to get server Ip and copy it
 - Go to Config.json and replace ip with the server ip
