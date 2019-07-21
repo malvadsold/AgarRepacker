@@ -136,9 +136,9 @@ class ServerSide {
         off += 4
         let version = ''
         while (true) {
-            let charCode = packet.getUint8(off++);
+            let charCode = packet.getUint8(off++)
             if (charCode == 0) break;
-            version += String.fromCharCode(charCode);
+            version += String.fromCharCode(charCode)
         }
         const encryptionKey = Protocol.murmur2(`${host}${version}`, 255)
         return {movementKey, decryptionKey, encryptionKey}
